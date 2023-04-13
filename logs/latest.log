@@ -1,0 +1,758 @@
+[11апр.2023 12:44:34.930] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[11апр.2023 12:44:34.941] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 18.0.1 by Oracle Corporation
+[11апр.2023 12:44:35.764] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/aserg/Desktop/serverMinecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[11апр.2023 12:44:36.893] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\aserg\Desktop\serverMinecraft\libraries\net\minecraftforge\fmlcore\1.18.2-40.2.0\fmlcore-1.18.2-40.2.0.jar is missing mods.toml file
+[11апр.2023 12:44:36.899] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\aserg\Desktop\serverMinecraft\libraries\net\minecraftforge\javafmllanguage\1.18.2-40.2.0\javafmllanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[11апр.2023 12:44:36.906] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\aserg\Desktop\serverMinecraft\libraries\net\minecraftforge\lowcodelanguage\1.18.2-40.2.0\lowcodelanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[11апр.2023 12:44:36.912] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\aserg\Desktop\serverMinecraft\libraries\net\minecraftforge\mclanguage\1.18.2-40.2.0\mclanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[11апр.2023 12:44:37.105] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[11апр.2023 12:44:39.925] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[11апр.2023 12:44:40.035] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[11апр.2023 12:44:40.185] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
+[11апр.2023 12:44:40.386] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/player/PlayerRenderer for invalid dist DEDICATED_SERVER
+[11апр.2023 12:44:40.387] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/player/PlayerRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/player/PlayerRenderer for invalid dist DEDICATED_SERVER)
+[11апр.2023 12:44:40.392] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.player.PlayerRenderer was not found slashblade.mixins.json:MixinPlayerRenderer
+[11апр.2023 12:44:40.480] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipeEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipeEventJS)
+[11апр.2023 12:44:40.481] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipeEventJS was not found mixins.hammerlib.json:bs.kubejs.RecipeEventJSMixin
+[11апр.2023 12:44:40.695] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: find block call
+[11апр.2023 12:44:42.681] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: find block call
+[11апр.2023 12:44:48.790] [modloading-worker-0/WARN] [dev.itsmeow.betteranimalmodels.BetterAnimalModels/]: Better Animal Models is a clientside mod! It does nothing when installed on dedicated servers, and can be safely removed without any issues.
+[11апр.2023 12:44:49.040] [modloading-worker-0/INFO] [HammerLib/]: Registered charge handler for type org.zeith.hammerlib.util.charging.fluid.FluidCharge - org.zeith.hammerlib.util.charging.impl.FluidChargeHandler@75dccf5b
+[11апр.2023 12:44:49.115] [modloading-worker-0/INFO] [HammerLib/]: Registered charge handler for type org.zeith.hammerlib.util.charging.fe.FECharge - org.zeith.hammerlib.util.charging.impl.FEChargeHandler@4ffa4bab
+[11апр.2023 12:44:49.145] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.0, for MC 1.18.2 with MCP 20220404.173914
+[11апр.2023 12:44:49.190] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.0 Initialized
+[11апр.2023 12:44:49.204] [modloading-worker-0/INFO] [HammerLib/]: Registered inventory lister org.zeith.hammerlib.util.charging.impl.VanillaPlayerInvLister
+[11апр.2023 12:44:49.258] [modloading-worker-0/INFO] [mysticmods.mysticalworld.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[11апр.2023 12:44:49.495] [modloading-worker-0/INFO] [HammerLib/]: Injecting setup into org.zeith.hammerlib.net.Network
+[11апр.2023 12:44:49.505] [modloading-worker-0/INFO] [HammerLib/]: Injecting setup into org.zeith.hammerlib.core.test.machine.RecipeTestMachine
+[11апр.2023 12:44:51.143] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 0 RS API injection points
+[11апр.2023 12:44:51.307] [modloading-worker-0/INFO] [BrandonsCore/]: Knock Knock...
+[11апр.2023 12:44:51.308] [modloading-worker-0/WARN] [draconicevolution/]: Reactor detonation initiated.
+[11апр.2023 12:44:51.310] [modloading-worker-0/INFO] [BrandonsCore/]: Wait... NO! What?
+[11апр.2023 12:44:51.327] [modloading-worker-0/INFO] [BrandonsCore/]: Stop That! That's not how this works!
+[11апр.2023 12:44:51.334] [modloading-worker-0/WARN] [draconicevolution/]: Calculating explosion ETA
+[11апр.2023 12:44:51.357] [modloading-worker-0/INFO] [BrandonsCore/]: Ahh... NO... NONONO! DONT DO THAT!!! STOP THIS NOW!
+[11апр.2023 12:44:51.361] [modloading-worker-0/WARN] [draconicevolution/]: **Explosion Imminent!!!**
+[11апр.2023 12:44:51.455] [modloading-worker-0/WARN] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Config field without expected type, will not validate list content (affectedBlocks in net.blay09.mods.prettybeaches.config.PrettyBeachesConfigData)
+[11апр.2023 12:44:51.471] [modloading-worker-0/INFO] [BrandonsCore/]: Well...... fork...
+[11апр.2023 12:44:51.813] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod tconstruct.
+[11апр.2023 12:44:51.834] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod undergarden.
+[11апр.2023 12:44:51.846] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
+[11апр.2023 12:44:51.847] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Curios.
+[11апр.2023 12:44:52.261] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[11апр.2023 12:44:52.293] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[11апр.2023 12:44:52.292] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[11апр.2023 12:44:54.380] [main/INFO] [mods.flammpfeil.slashblade.SlashBlade/]: HELLO from Register Block
+[11апр.2023 12:44:58.610] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[11апр.2023 12:44:58.611] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[11апр.2023 12:44:59.987] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityLeafcutterAnt from class com.github.alexthe666.alexsmobs.entity.EntityDevilsHolePupfish
+[11апр.2023 12:44:59.990] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityMantisShrimp from class com.github.alexthe666.alexsmobs.entity.EntitySkelewag
+[11апр.2023 12:45:00.065] [main/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Config Loaded: simplyjetpacks-common.toml
+[11апр.2023 12:45:00.072] [Thread-0/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Config Re-Loaded: simplyjetpacks-common.toml
+[11апр.2023 12:45:00.592] [modloading-worker-0/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Common Setup Method registered.
+[11апр.2023 12:45:00.611] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[11апр.2023 12:45:00.610] [modloading-worker-0/INFO] [HammerLib/]: Setup HammerLib networking!
+[11апр.2023 12:45:00.714] [modloading-worker-0/INFO] [Mekanism/]: Version 10.2.5 initializing...
+[11апр.2023 12:45:00.769] [modloading-worker-0/INFO] [dav.mod.AppleTreesRev/]: WoodStripRegistry: Block ADDED Block{appletreesrev:apple_log}
+[11апр.2023 12:45:00.854] [modloading-worker-0/INFO] [dav.mod.AppleTreesRev/]: WoodStripRegistry: Block ADDED Block{appletreesrev:apple_wood}
+[11апр.2023 12:45:00.894] [modloading-worker-0/INFO] [draconicadditions/]: Hey, Brandon's Core!  How's it going?
+[11апр.2023 12:45:00.907] [modloading-worker-0/INFO] [brandonscore/]: Cant you see im busy over he-
+[11апр.2023 12:45:00.920] [modloading-worker-0/INFO] [draconicevolution/]: *KABOOOOOOM!!!*
+[11апр.2023 12:45:00.920] [modloading-worker-0/INFO] [draconicadditions/]: I see you're a little...  Preoccupied, at the moment.
+[11апр.2023 12:45:00.924] [modloading-worker-0/INFO] [draconicadditions/]: Let me just yoink these curios from Draconic Evolution for my own benefit...
+[11апр.2023 12:45:01.416] [modloading-worker-0/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[11апр.2023 12:45:01.418] [modloading-worker-0/INFO] [Mekanism/]: Mod loaded.
+[11апр.2023 12:45:01.491] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplyjetpacks] Starting version check at https://raw.githubusercontent.com/simplyjetpacks/updates/main/simplyjetpacks2/update.json
+[11апр.2023 12:45:01.777] [main/INFO] [journeymap/]: Initializing Packet Registries
+[11апр.2023 12:45:01.832] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplyjetpacks] Found status: OUTDATED Current: 1.18.2-2.8.0.1 Target: 2.8.0.1
+[11апр.2023 12:45:01.833] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [quarryplus] Starting version check at https://raw.githubusercontent.com/Kotori316/QuarryPlus/1.18/update.json
+[11апр.2023 12:45:02.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [quarryplus] Found status: BETA_OUTDATED Current: 18.16 Target: 18.17
+[11апр.2023 12:45:02.069] [modloading-worker-0/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Got IMC []
+[11апр.2023 12:45:02.057] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [slashblade] Starting version check at https://drive.google.com/uc?id=1NhPuJVKjr4VNidXLNbxLhShWBlZjEFvM
+[11апр.2023 12:45:02.069] [modloading-worker-0/INFO] [mods.flammpfeil.slashblade.SlashBlade/]: Got IMC []
+[11апр.2023 12:45:02.182] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at net.minecraftforge.eventbus.ASMEventHandler_210_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23112!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23111!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[11апр.2023 12:45:02.299] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NoClassDefFoundError: mcp/mobius/waila/api/Accessor
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:383) ~[?:?]
+	at java.lang.Class.forName(Class.java:376) ~[?:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:42) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at net.minecraftforge.eventbus.ASMEventHandler_210_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23112!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23111!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.lang.ClassNotFoundException: mcp.mobius.waila.api.Accessor
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:138) ~[securejarhandler-1.0.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 20 more
+[11апр.2023 12:45:02.430] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-1.18.2-forge-4.13.5.jar%23106!/:4.13.5]
+	at net.minecraftforge.eventbus.ASMEventHandler_210_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23112!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23111!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[11апр.2023 12:45:02.482] [modloading-worker-0/INFO] [WTHIT/]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.forge.ForgePlugins.Core
+[11апр.2023 12:45:02.598] [modloading-worker-0/INFO] [WTHIT/]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.forge.ForgePlugins.Vanilla
+[11апр.2023 12:45:02.666] [modloading-worker-0/INFO] [WTHIT/]: [WTHIT] Plugin config reloaded
+[11апр.2023 12:45:02.840] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 4 path $..1.13.2.1
+	at com.google.gson.Gson.fromJson(Gson.java:978) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.18.2-40.2.0.jar%23111!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.18.2-40.2.0.jar%23111!/:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 4 path $..1.13.2.1
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1562) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:504) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:413) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.ObjectTypeAdapter.read(ObjectTypeAdapter.java:88) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:187) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	... 6 more
+[11апр.2023 12:45:02.866] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hammerlib] Starting version check at http://dccg.herokuapp.com/api/fmluc/247401
+[11апр.2023 12:45:03.127] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hammerlib] Found status: UP_TO_DATE Current: 18.2.16 Target: null
+[11апр.2023 12:45:03.152] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[11апр.2023 12:45:03.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.4 Target: 5.9.5
+[11апр.2023 12:45:03.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[11апр.2023 12:45:04.197] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.0.1 Target: 2.0.1
+[11апр.2023 12:45:04.197] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11апр.2023 12:45:04.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 40.2.0 Target: null
+[11апр.2023 12:45:04.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[11апр.2023 12:45:05.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: UP_TO_DATE Current: 4.1.1494 Target: null
+[11апр.2023 12:45:05.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zerocore] Starting version check at https://raw.githubusercontent.com/ZeroNoRyouki/ZeroCore2/master/update.json
+[11апр.2023 12:45:05.179] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zerocore] Found status: UP_TO_DATE Current: 1.18.2-2.1.31 Target: null
+[11апр.2023 12:45:05.179] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [farmingutils] Starting version check at https://raw.githubusercontent.com/TheMillman/FarmingUtils/1.18.1/update.json
+[11апр.2023 12:45:05.372] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [farmingutils] Found status: AHEAD Current: 1.18.2-0.1.2 Target: null
+[11апр.2023 12:45:05.373] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/master/cofh_core/update.json
+[11апр.2023 12:45:05.941] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 9.2.0.36 Target: null
+[11апр.2023 12:45:05.942] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/master/thermal/update.json
+[11апр.2023 12:45:06.137] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: AHEAD Current: 9.2.0.46 Target: null
+[11апр.2023 12:45:06.138] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tools_complement] Starting version check at https://raw.github.com/cofh/version/master/tools_complement/update.json
+[11апр.2023 12:45:06.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tools_complement] Found status: AHEAD Current: 2.2.0.17 Target: null
+[11апр.2023 12:45:06.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_innovation] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_innovation.json
+[11апр.2023 12:45:06.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_innovation] Found status: AHEAD Current: 9.2.0.17 Target: null
+[11апр.2023 12:45:06.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [chickenchunks] Starting version check at https://version-check.covers1624.net/check/?mod=ChickenChunks&mc=1.18.2
+[11апр.2023 12:45:07.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [chickenchunks] Found status: UP_TO_DATE Current: 2.9.2.95 Target: null
+[11апр.2023 12:45:07.873] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_cultivation] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_cultivation.json
+[11апр.2023 12:45:08.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_cultivation] Found status: AHEAD Current: 9.2.0.16 Target: null
+[11апр.2023 12:45:08.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_expansion] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_expansion.json
+[11апр.2023 12:45:08.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_expansion] Found status: AHEAD Current: 9.2.0.20 Target: null
+[11апр.2023 12:45:08.247] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[11апр.2023 12:45:08.295] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.10 Target: null
+[11апр.2023 12:45:08.295] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bigreactors] Starting version check at https://raw.githubusercontent.com/ZeroNoRyouki/ExtremeReactors2/master/update.json
+[11апр.2023 12:45:08.349] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bigreactors] Found status: AHEAD Current: 1.18.2-2.0.61 Target: null
+[11апр.2023 12:45:08.349] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [solargeneration] Starting version check at https://raw.githubusercontent.com/Edivad99/mod-version-controll/master/solargeneration_update.json
+[11апр.2023 12:45:08.510] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [solargeneration] Found status: UP_TO_DATE Current: 4.1.1 Target: null
+[11апр.2023 12:45:08.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.18.2
+[11апр.2023 12:45:08.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: UP_TO_DATE Current: 4.1.3.480 Target: null
+[11апр.2023 12:45:08.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [brandonscore] Starting version check at https://version-check.covers1624.net/check/?mod=BrandonsCore&mc=1.18.2
+[11апр.2023 12:45:09.056] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11апр.2023 12:45:09.136] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [brandonscore] Found status: BETA Current: 3.1.9.279 Target: null
+[11апр.2023 12:45:09.137] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_dynamics] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_dynamics.json
+[11апр.2023 12:45:09.320] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_dynamics] Found status: AHEAD Current: 9.2.0b.11 Target: null
+[11апр.2023 12:45:09.320] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [themillmanlib] Starting version check at https://raw.githubusercontent.com/TheMillman/TheMillmanLib/main/update.json
+[11апр.2023 12:45:09.546] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [themillmanlib] Found status: AHEAD Current: 1.18.2-0.0.14 Target: null
+[11апр.2023 12:45:11.587] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/aserg/Desktop/serverMinecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%23110!/assets/.mcassetsroot' uses unexpected schema
+[11апр.2023 12:45:11.587] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/aserg/Desktop/serverMinecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%23110!/data/.mcassetsroot' uses unexpected schema
+[11апр.2023 12:45:14.459] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11апр.2023 12:45:14.460] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11апр.2023 12:45:14.464] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11апр.2023 12:45:14.466] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11апр.2023 12:45:14.466] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11апр.2023 12:45:14.469] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, ignite, duration] and [cofh, ignite, targets] with inputs: [0, -123, 123]
+[11апр.2023 12:45:14.470] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, ignite, targets] and [cofh, ignite, duration] with inputs: [0123]
+[11апр.2023 12:45:14.471] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, invis, flag] and [cofh, invis, targets] with inputs: [true, false]
+[11апр.2023 12:45:14.472] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, invuln, flag] and [cofh, invuln, targets] with inputs: [true, false]
+[11апр.2023 12:45:14.473] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [simplybackpacks, delete, UUID] and [simplybackpacks, delete, CONFIRMATION] with inputs: ["", "quoted phrase", word]
+[11апр.2023 12:45:14.474] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [simplybackpacks, delete, CONFIRMATION] and [simplybackpacks, delete, UUID] with inputs: ["", "quoted phrase", word]
+[11апр.2023 12:45:14.476] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, destination] and [tpx, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11апр.2023 12:45:14.477] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, destination] and [tpx, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11апр.2023 12:45:14.478] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, targets] and [tpx, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11апр.2023 12:45:14.479] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, targets] and [tpx, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11апр.2023 12:45:14.480] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, targets, destination] and [tpx, targets, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11апр.2023 12:45:14.758] [Worker-Main-12/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/noise
+[11апр.2023 12:45:14.769] [Worker-Main-13/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/processor_list
+[11апр.2023 12:45:14.846] [Worker-Main-15/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/noise_settings
+[11апр.2023 12:45:14.909] [Worker-Main-14/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/configured_structure_feature
+[11апр.2023 12:45:14.930] [Worker-Main-22/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/density_function
+[11апр.2023 12:45:14.953] [Worker-Main-16/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/placed_feature
+[11апр.2023 12:45:14.953] [Worker-Main-19/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/template_pool
+[11апр.2023 12:45:14.955] [Worker-Main-21/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/configured_carver
+[11апр.2023 12:45:14.963] [Worker-Main-20/WARN] [HammerLib/]: Unable to find registry for tag directory tags/dimension_type
+[11апр.2023 12:45:14.965] [Worker-Main-17/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/configured_feature
+[11апр.2023 12:45:14.973] [Worker-Main-12/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_set
+[11апр.2023 12:45:14.983] [Worker-Main-13/WARN] [HammerLib/]: Unable to find registry for tag directory tags/game_events
+[11апр.2023 12:45:15.366] [Worker-Main-18/WARN] [HammerLib/]: Unable to find registry for tag directory tags/custom_stat
+[11апр.2023 12:45:15.388] [Worker-Main-22/WARN] [HammerLib/]: Unable to find registry for tag directory tags/rule_test
+[11апр.2023 12:45:15.499] [Worker-Main-19/WARN] [HammerLib/]: Unable to find registry for tag directory tags/pos_rule_test
+[11апр.2023 12:45:15.668] [Worker-Main-16/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag dynamictrees:branches_that_burn as it is missing following references: mysticalworld:charred_branch (from mysticalworld-1.18.2-0.4.8.29.jar)
+[11апр.2023 12:45:15.673] [Worker-Main-16/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag dynamictrees:stripped_branches_that_burn as it is missing following references: mysticalworld:stripped_charred_branch (from mysticalworld-1.18.2-0.4.8.29.jar)
+[11апр.2023 12:45:15.749] [Worker-Main-17/WARN] [HammerLib/]: Unable to find registry for tag directory tags/recipe_type
+[11апр.2023 12:45:15.763] [Worker-Main-13/WARN] [HammerLib/]: Unable to find registry for tag directory tags/position_source_type
+[11апр.2023 12:45:15.765] [Worker-Main-14/WARN] [HammerLib/]: Unable to find registry for tag directory tags/villager_type
+[11апр.2023 12:45:15.884] [Worker-Main-20/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag dynamictrees:branches_that_burn as it is missing following references: mysticalworld:charred_branch (from mysticalworld-1.18.2-0.4.8.29.jar)
+[11апр.2023 12:45:15.979] [Worker-Main-18/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_pool_entry_type
+[11апр.2023 12:45:16.021] [Worker-Main-17/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_function_type
+[11апр.2023 12:45:16.067] [Worker-Main-14/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_nbt_provider_type
+[11апр.2023 12:45:16.088] [Worker-Main-21/WARN] [HammerLib/]: Unable to find registry for tag directory tags/float_provider_type
+[11апр.2023 12:45:16.095] [Worker-Main-19/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_score_provider_type
+[11апр.2023 12:45:16.095] [Worker-Main-13/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_number_provider_type
+[11апр.2023 12:45:16.096] [Worker-Main-22/WARN] [HammerLib/]: Unable to find registry for tag directory tags/loot_condition_type
+[11апр.2023 12:45:16.103] [Worker-Main-20/WARN] [HammerLib/]: Unable to find registry for tag directory tags/int_provider_type
+[11апр.2023 12:45:16.137] [Worker-Main-15/WARN] [HammerLib/]: Unable to find registry for tag directory tags/height_provider_type
+[11апр.2023 12:45:16.149] [Worker-Main-12/WARN] [HammerLib/]: Unable to find registry for tag directory tags/block_predicate_type
+[11апр.2023 12:45:16.291] [Worker-Main-14/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_placement
+[11апр.2023 12:45:16.346] [Worker-Main-21/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_piece
+[11апр.2023 12:45:16.440] [Worker-Main-20/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/trunk_placer_type
+[11апр.2023 12:45:16.443] [Worker-Main-19/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/placement_modifier_type
+[11апр.2023 12:45:16.468] [Worker-Main-12/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/feature_size_type
+[11апр.2023 12:45:16.469] [Worker-Main-18/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/chunk_generator
+[11апр.2023 12:45:16.471] [Worker-Main-16/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/biome_source
+[11апр.2023 12:45:16.478] [Worker-Main-17/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/material_condition
+[11апр.2023 12:45:16.495] [Worker-Main-14/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/material_rule
+[11апр.2023 12:45:16.537] [Worker-Main-21/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/density_function_type
+[11апр.2023 12:45:16.653] [Worker-Main-13/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_processor
+[11апр.2023 12:45:16.738] [Worker-Main-20/WARN] [HammerLib/]: Unable to find registry for tag directory tags/worldgen/structure_pool_element
+[11апр.2023 12:45:16.776] [Worker-Main-22/WARN] [HammerLib/]: Unable to find registry for tag directory tags/botania/brews
+[11апр.2023 12:45:17.134] [Worker-Main-22/WARN] [HammerLib/]: Unable to find registry for tag directory tags/functions
+[11апр.2023 12:45:19.529] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/redstoneport_alt as it's serializer returned null
+[11апр.2023 12:45:19.532] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/casing_upgrade_alt as it's serializer returned null
+[11апр.2023 12:45:19.565] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/shaft_alt as it's serializer returned null
+[11апр.2023 12:45:19.568] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/casing_alt as it's serializer returned null
+[11апр.2023 12:45:19.572] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/controlrod_alt as it's serializer returned null
+[11апр.2023 12:45:19.593] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/fuelrod_alt_ingots_uranium as it's serializer returned null
+[11апр.2023 12:45:19.598] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/computerport_alt as it's serializer returned null
+[11апр.2023 12:45:19.604] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/blade_alt as it's serializer returned null
+[11апр.2023 12:45:19.611] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/bearing_alt as it's serializer returned null
+[11апр.2023 12:45:19.612] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/redstoneport_alt as it's serializer returned null
+[11апр.2023 12:45:19.624] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/fluidaccessport_alt as it's serializer returned null
+[11апр.2023 12:45:19.625] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/fuelrod_alt_ingots_yellorium as it's serializer returned null
+[11апр.2023 12:45:19.633] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/casing_upgrade_alt as it's serializer returned null
+[11апр.2023 12:45:19.638] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/computerport_alt as it's serializer returned null
+[11апр.2023 12:45:19.641] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/casing_alt as it's serializer returned null
+[11апр.2023 12:45:19.645] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/solidaccessport_alt as it's serializer returned null
+[11апр.2023 12:45:19.651] [Worker-Main-13/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 83 recipes
+[11апр.2023 12:45:19.657] [Worker-Main-13/INFO] [HammerLib/]: Reloading HammerLib recipes...
+[11апр.2023 12:45:19.658] [Worker-Main-13/INFO] [HammerLib/]: HammerLib injected 0 recipes into recipe map.
+[11апр.2023 12:45:19.658] [Worker-Main-13/INFO] [HammerLib/]: Reloading 1 custom registries.
+[11апр.2023 12:45:19.659] [Worker-Main-13/INFO] [HammerLib/]: 1 custom registries reloaded, added 0 total recipes.
+[11апр.2023 12:45:19.660] [Worker-Main-13/INFO] [HammerLib/]: Registered 0 additional recipes.
+[11апр.2023 12:45:21.232] [Worker-Main-13/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table mysticalworld:trees/branches/charred
+com.google.gson.JsonSyntaxException: Unknown type 'dynamictrees:multiply_logs_count'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:448) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:466) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:448) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:456) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:448) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:466) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:255) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:888) ~[forge-1.18.2-40.2.0-universal.jar%23115!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:39) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:17) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[11апр.2023 12:45:21.296] [Worker-Main-13/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table mysticalworld:trees/branches/stripped_charred
+com.google.gson.JsonSyntaxException: Unknown type 'dynamictrees:multiply_logs_count'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:448) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:466) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:448) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:456) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:448) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:466) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:255) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:888) ~[forge-1.18.2-40.2.0-universal.jar%23115!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:39) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:17) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23110!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[11апр.2023 12:45:21.917] [Worker-Main-13/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4305 advancements
+[11апр.2023 12:45:24.518] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
+[11апр.2023 12:45:24.518] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11апр.2023 12:45:24.521] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11апр.2023 12:45:24.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11апр.2023 12:45:24.564] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11апр.2023 12:45:24.589] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[11апр.2023 12:45:24.766] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11апр.2023 12:45:24.767] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[11апр.2023 12:45:24.768] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11апр.2023 12:45:24.769] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[11апр.2023 12:45:24.788] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Config Loaded: simplyjetpacks-server.toml
+[11апр.2023 12:45:24.791] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[11апр.2023 12:45:24.838] [Server thread/INFO] [configured/]: Loading server configs...
+[11апр.2023 12:45:24.875] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[11апр.2023 12:45:25.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11апр.2023 12:45:25.949] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11апр.2023 12:45:25.955] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11апр.2023 12:45:26.147] [Worker-Main-20/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11апр.2023 12:45:26.648] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11апр.2023 12:45:27.147] [Worker-Main-18/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11апр.2023 12:45:27.647] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[11апр.2023 12:45:28.147] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[11апр.2023 12:45:28.647] [Worker-Main-22/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[11апр.2023 12:45:29.279] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4133 ms
+[11апр.2023 12:45:29.280] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.498s)! For help, type "help"
+[11апр.2023 12:45:29.325] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[11апр.2023 12:45:29.326] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Server starting...
+[11апр.2023 12:45:29.373] [Server thread/INFO] [HammerLib/]: Reloading recipes in 1 HL recipe registries.
+[11апр.2023 12:45:29.375] [Server thread/INFO] [WTHIT/]: [WTHIT] Plugin config reloaded
+[11апр.2023 12:45:29.377] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[11апр.2023 12:58:49.269] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@75c33973
+[11апр.2023 12:58:49.285] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrPashkerson[/25.18.23.8:63458] logged in with entity id 414 at (-0.5, 70.0, 32.5)
+[11апр.2023 12:58:49.328] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson joined the game
+[11апр.2023 12:58:49.492] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson has made the advancement [Blade Stand]
+[11апр.2023 12:58:49.494] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson has made the advancement [Tiny Proud Soul]
+[11апр.2023 12:58:49.506] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson has made the advancement [Blade Soul Sphere]
+[11апр.2023 12:58:49.525] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson has made the advancement [Blade Soul Crystal]
+[11апр.2023 12:58:49.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson has made the advancement [Blade Soul Ingot]
+[11апр.2023 12:58:49.574] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson has made the advancement [Blade Soul Trapezohedron]
+[11апр.2023 12:59:12.353] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson was slain by Zombie
+[11апр.2023 12:59:49.395] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrPashkerson lost connection: Timed out
+[11апр.2023 12:59:49.395] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson left the game
+[11апр.2023 12:59:58.782] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3936519a
+[11апр.2023 12:59:58.801] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 21raxez[/[0:0:0:0:0:0:0:1]:52919] logged in with entity id 554 at (82.7782762044464, 41.0, 22.176990464795743)
+[11апр.2023 12:59:58.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 21raxez joined the game
+[11апр.2023 13:00:04.961] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@b666064
+[11апр.2023 13:00:04.971] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrPashkerson[/25.18.23.8:63479] logged in with entity id 706 at (-0.5, 70.0, 32.5)
+[11апр.2023 13:00:05.026] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson joined the game
+[11апр.2023 13:00:29.506] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrPashkerson lost connection: Disconnected
+[11апр.2023 13:00:29.506] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson left the game
+[11апр.2023 13:01:32.284] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@668d1
+[11апр.2023 13:01:32.293] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: OffMax[/25.59.98.48:55672] logged in with entity id 1641 at (103.69999998807907, 60.0, 40.69999998807907)
+[11апр.2023 13:01:32.301] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: OffMax joined the game
+[11апр.2023 13:03:05.721] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@32a075da
+[11апр.2023 13:03:05.735] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ksenotsid[/25.70.197.136:49743] logged in with entity id 2338 at (110.66496210104431, 29.0, 15.280074444198105)
+[11апр.2023 13:03:05.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid joined the game
+[11апр.2023 13:03:51.968] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2866bbaa
+[11апр.2023 13:03:51.976] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MrPashkerson[/25.18.23.8:63520] logged in with entity id 3023 at (-0.5, 70.0, 32.5)
+[11апр.2023 13:03:51.982] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson joined the game
+[11апр.2023 13:04:11.566] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MrPashkerson lost connection: Disconnected
+[11апр.2023 13:04:11.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MrPashkerson left the game
+[11апр.2023 13:11:35.923] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5c15080a
+[11апр.2023 13:11:35.936] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sollimba[/25.65.180.171:58593] logged in with entity id 7788 at (98.6197973328545, 64.0, 33.34148012033283)
+[11апр.2023 13:11:35.944] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sollimba joined the game
+[11апр.2023 13:16:00.224] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:16:00.225] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:16:00.227] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:16:00.227] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:16:00.228] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:16:00.230] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: death.attack.simplyjetpacks.potato_jetpack
+[11апр.2023 13:16:13.752] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> ЫФХВАХЫВФАХЫФ
+[11апр.2023 13:16:39.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 21raxez was slain by OffMax
+[11апр.2023 13:17:51.671] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:17:51.671] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:17:51.673] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:17:51.673] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:17:51.674] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:17:51.675] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:17:51.675] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: SJ2: CREATING FIREWORKS!
+[11апр.2023 13:17:51.677] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid spontaneously detonated!
+[11апр.2023 13:25:56.409] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid has made the advancement [Mine? Mine? Mine?]
+[11апр.2023 13:44:02.904] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2511ms or 50 ticks behind
+[11апр.2023 13:44:30.948] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! 7.94379247012057,0.16610926093821377,-6.201582968996206
+[11апр.2023 13:44:30.949] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 21raxez moved too quickly! 1.5282251302791963,-3.579735980638027,-9.254764020909334
+[11апр.2023 13:44:30.974] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7431ms or 148 ticks behind
+[11апр.2023 13:44:46.623] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 21raxez moved too quickly! -7.562488851054397,-6.6552320045165985,0.39892264251247056
+[11апр.2023 13:44:46.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! 4.16146801334321,1.1767592750642422,-9.368137372867466
+[11апр.2023 13:44:52.946] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7002ms or 140 ticks behind
+[11апр.2023 13:45:47.543] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! 6.457887115137169,0.04353562014750878,-8.05443357972797
+[11апр.2023 13:45:51.449] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! 5.598761297096985,0.12129684053920187,-8.394660173756165
+[11апр.2023 13:45:51.450] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4007ms or 80 ticks behind
+[11апр.2023 13:46:10.292] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2399ms or 47 ticks behind
+[11апр.2023 13:46:43.136] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! -2.1505305285967324,-0.8291870918577047,-9.810793740079816
+[11апр.2023 13:46:57.689] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4645ms or 92 ticks behind
+[11апр.2023 13:47:48.944] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! 2.5590481995868686,-0.24813599859093927,-9.875003338146712
+[11апр.2023 13:47:48.952] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2858ms or 57 ticks behind
+[11апр.2023 13:48:08.399] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4456ms or 89 ticks behind
+[11апр.2023 13:48:15.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! -4.244076465940111,-1.0,-9.149550353557515
+[11апр.2023 13:49:07.954] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2760ms or 55 ticks behind
+[11апр.2023 13:52:33.402] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3858ms or 77 ticks behind
+[11апр.2023 13:53:15.444] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! 8.303245822136205,0.0,5.5961729140294665
+[11апр.2023 13:53:15.459] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6065ms or 121 ticks behind
+[11апр.2023 13:53:35.017] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! 3.317525868983239,1.2491870787446828,-9.412122937201502
+[11апр.2023 13:53:35.030] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2286ms or 45 ticks behind
+[11апр.2023 13:55:21.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sollimba moved too quickly! 7.835081781909622,7.0,0.5901108701960815
+[11апр.2023 13:55:29.290] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3996ms or 79 ticks behind
+[11апр.2023 13:57:23.057] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! -9.423033172973874,1.0,3.3366538327957187
+[11апр.2023 13:57:23.060] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OffMax moved too quickly! 9.916748896808397,2.176759275064242,0.8765303569832525
+[11апр.2023 13:57:23.070] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3126ms or 62 ticks behind
+[11апр.2023 13:59:01.524] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=599, y=43, z=-1269} but found not block entity block Block{minecraft:oak_wood}[axis=y] at location
+[11апр.2023 13:59:01.525] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:oak_wood}[axis=y] but failed at location BlockPos{x=599, y=43, z=-1269}
+[11апр.2023 14:00:53.615] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! -5.709356587472826,0.11589831755598823,8.283514303438096
+[11апр.2023 14:00:53.619] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7275ms or 145 ticks behind
+[11апр.2023 14:01:06.220] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OffMax moved too quickly! -0.08273877639447846,0.0,10.173750787458744
+[11апр.2023 14:01:10.713] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2119ms or 42 ticks behind
+[11апр.2023 14:01:46.135] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4291ms or 85 ticks behind
+[11апр.2023 14:02:37.999] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2355ms or 47 ticks behind
+[11апр.2023 14:02:50.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! 0.4371683776412283,2.419999986886978,9.823050254835834
+[11апр.2023 14:02:56.249] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! 0.8468704969037617,1.2491870787446828,10.038975867411864
+[11апр.2023 14:03:00.775] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7781ms or 155 ticks behind
+[11апр.2023 14:05:15.036] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: OffMax has made the advancement [Masquerade]
+[11апр.2023 14:06:25.056] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! -2.7786839688818645,2.0,9.544104065355896
+[11апр.2023 14:06:25.062] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2868ms or 57 ticks behind
+[11апр.2023 14:09:07.713] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid was slain by Tiger
+[11апр.2023 14:11:12.913] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid was slain by Tiger
+[11апр.2023 14:13:20.713] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid was slain by Tiger
+[11апр.2023 14:15:34.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid was slain by Tiger
+[11апр.2023 14:20:20.825] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sollimba moved wrongly!
+[11апр.2023 14:44:16.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid lost connection: Disconnected
+[11апр.2023 14:44:16.064] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid left the game
+[11апр.2023 14:53:25.063] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sollimba burned to death
+[11апр.2023 14:54:46.427] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sollimba was doomed to fall by Zombie
+[11апр.2023 14:59:02.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: OffMax was at a loss for words after being killed by Death Tome
+[11апр.2023 14:59:52.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: OffMax has made the advancement [With Fire It Writes]
+[11апр.2023 15:02:36.315] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: OffMax succumbed to the Lich's explosive magic
+[11апр.2023 15:06:22.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: OffMax has reached the goal [Bring Out Your Dead]
+[11апр.2023 15:06:22.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sollimba has reached the goal [Bring Out Your Dead]
+[11апр.2023 15:07:26.269] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6798f594
+[11апр.2023 15:07:26.279] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ksenotsid[/25.70.197.136:51277] logged in with entity id 300022 at (115.69999998807907, 64.0, 29.30772939037863)
+[11апр.2023 15:07:26.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid joined the game
+[11апр.2023 15:12:54.519] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid's life was drained by 21raxez
+[11апр.2023 15:13:07.021] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sollimba has made the advancement [With Fire It Writes]
+[11апр.2023 15:13:36.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OffMax moved wrongly!
+[11апр.2023 15:16:58.308] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid lost connection: Disconnected
+[11апр.2023 15:16:58.308] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid left the game
+[11апр.2023 15:17:29.512] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@48ef36b0
+[11апр.2023 15:17:29.521] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ksenotsid[/25.70.197.136:51455] logged in with entity id 322044 at (98.25528180631545, 64.0, 35.50120458933783)
+[11апр.2023 15:17:29.526] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid joined the game
+[11апр.2023 15:18:23.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid's life was drained by 21raxez
+[11апр.2023 15:18:34.909] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid lost connection: Disconnected
+[11апр.2023 15:18:34.909] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid left the game
+[11апр.2023 15:19:04.913] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@613c0b27
+[11апр.2023 15:19:04.922] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ksenotsid[/25.70.197.136:51490] logged in with entity id 325410 at (99.54641599942231, 64.0, 38.88474801952438)
+[11апр.2023 15:19:04.927] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid joined the game
+[11апр.2023 15:25:21.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> метиорит
+[11апр.2023 15:25:24.521] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> руский
+[11апр.2023 15:25:26.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> ХЫВХАЫФВХАХЫВ
+[11апр.2023 15:29:39.675] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> НИКИТ
+[11апр.2023 15:29:44.378] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> НУЖЕН ОБСИДИАН
+[11апр.2023 15:29:54.777] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> ЧАТ НА T ЕСЛИ ЧТО
+[11апр.2023 15:29:55.577] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sollimba has made the advancement [Drop Pop Candy]
+[11апр.2023 15:30:03.678] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> АЛО
+[11апр.2023 15:30:05.489] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> БЛЯТЬ
+[11апр.2023 15:30:11.430] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> НУЖЕН ОБСИДИАН
+[11апр.2023 15:30:22.177] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> АЛЕ)
+[11апр.2023 15:30:32.129] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> АЛЕ)
+[11апр.2023 15:30:36.479] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> НУЖЕН ОБСИДИАН
+[11апр.2023 15:31:33.407] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[11апр.2023 15:31:50.550] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2156ms or 43 ticks behind
+[11апр.2023 15:31:54.535] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> СОРЕ)
+[11апр.2023 15:31:57.127] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> АЛЕ)
+[11апр.2023 15:32:25.798] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2105ms or 42 ticks behind
+[11апр.2023 15:32:30.070] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OffMax moved too quickly! -5.822833897096187,-0.4938648978937641,-8.158683473911765
+[11апр.2023 15:32:30.071] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sollimba moved too quickly! -6.345036348183344,-0.0554624345250474,-8.08091376823306
+[11апр.2023 15:32:30.081] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid moved too quickly! 2.76597941749705,0.9755759117863079,-9.63533607891543
+[11апр.2023 15:32:32.987] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sollimba moved too quickly! -5.189495969757403,0.75398620173877,-8.596572821514627
+[11апр.2023 15:32:32.988] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OffMax moved too quickly! -3.4382144257220357,1.499003359732522,-9.462601802191585
+[11апр.2023 15:32:42.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OffMax moved too quickly! 0.7443694769120077,0.8322033533667454,-10.136368808999904
+[11апр.2023 15:32:49.211] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8417ms or 168 ticks behind
+[11апр.2023 15:33:29.122] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
+[11апр.2023 15:33:42.054] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sollimba moved too quickly! 3.8503928627005024,0.0,-9.251850836229721
+[11апр.2023 15:33:48.995] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4901ms or 98 ticks behind
+[11апр.2023 15:34:20.670] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[11апр.2023 15:35:04.664] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OffMax moved too quickly! 1.074867732561362,0.0,-9.969258260432696
+[11апр.2023 15:35:04.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sollimba moved too quickly! 2.8890527858049957,2.001335979112147,-9.483665680449121
+[11апр.2023 15:35:04.669] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2875ms or 57 ticks behind
+[11апр.2023 15:35:24.336] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 3.958817826308973,0.0,-9.571537541547968
+[11апр.2023 15:35:24.337] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 4.161223083617131,0.0,-9.911822322027547
+[11апр.2023 15:35:24.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 21raxez moved too quickly! -4.576165761242713,0.023088109101532694,-9.053671123152974
+[11апр.2023 15:35:24.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 4.362152298767796,0.0,-10.253404158438343
+[11апр.2023 15:35:24.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 4.561345428670393,0.0,-10.596366886247097
+[11апр.2023 15:35:24.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OffMax moved too quickly! 4.649580754169797,1.1661092609382138,-9.101750272755908
+[11апр.2023 15:35:24.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 4.7586105433685475,0.0,-10.940758855884496
+[11апр.2023 15:35:24.342] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 4.953807433278314,0.0,-11.286602911101227
+[11апр.2023 15:35:24.342] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.146842940063891,0.0,-11.633899878409693
+[11апр.2023 15:35:24.343] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.337659758330744,0.0,-11.982634903880808
+[11апр.2023 15:35:24.343] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.526233168842907,0.0,-12.332779639586079
+[11апр.2023 15:35:24.344] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.712568053715245,0.0,-12.684294159242654
+[11апр.2023 15:35:24.344] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sollimba moved too quickly! -4.730432828032887,0.0,-9.092750549231823
+[11апр.2023 15:35:24.345] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.896689184188858,0.0,-13.037131759382419
+[11апр.2023 15:35:24.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.078635891995418,0.0,-13.391241536969119
+[11апр.2023 15:35:24.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.2584642436030435,0.0,-13.746567527855404
+[11апр.2023 15:35:24.351] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.436238458191383,0.0,-14.103052550753773
+[11апр.2023 15:35:24.353] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.612030168748845,0.0,-14.460638489138546
+[11апр.2023 15:35:24.353] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.785921277459124,0.0,-14.819265039939637
+[11апр.2023 15:35:24.354] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.957992404836546,0.0,-15.178874577634133
+[11апр.2023 15:35:24.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.128330119227485,0.0,-15.539408984490592
+[11апр.2023 15:35:24.357] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.297019307747803,0.0,-15.900812754527351
+[11апр.2023 15:35:24.453] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 4.6834903306818205,0.0,-9.218263165406142
+[11апр.2023 15:35:24.454] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 4.841959183888832,0.0,-9.584850851121018
+[11апр.2023 15:35:24.455] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 4.999483672647045,0.0,-9.951900030998331
+[11апр.2023 15:35:24.455] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.156129758236148,0.0,-10.319375977351001
+[11апр.2023 15:35:24.456] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.311956796493007,0.0,-10.687247409184238
+[11апр.2023 15:35:24.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.467021762527736,0.0,-11.055484735641585
+[11апр.2023 15:35:24.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.621379488796322,0.0,-11.4240598832655
+[11апр.2023 15:35:24.458] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.775079318919836,0.0,-11.792947578494477
+[11апр.2023 15:35:24.459] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.9281692235337005,0.0,-12.162123644611938
+[11апр.2023 15:35:24.459] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.080692372483327,0.0,-12.5315663151232
+[11апр.2023 15:35:24.460] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.232691180006043,0.0,-12.90125458084799
+[11апр.2023 15:35:24.461] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.384207382154614,0.0,-13.27116811791393
+[11апр.2023 15:35:24.462] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.535274975341395,0.0,-13.641290042996616
+[11апр.2023 15:35:24.462] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.685928120508265,0.0,-14.01160374176834
+[11апр.2023 15:35:24.463] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.836201128536118,0.0,-14.382092853175209
+[11апр.2023 15:35:24.463] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.986768340228366,0.0,-14.75248235133472
+[11апр.2023 15:35:24.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.138810391456843,0.0,-15.12225688321314
+[11апр.2023 15:35:24.465] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.293251448767705,0.0,-15.490972289449246
+[11апр.2023 15:35:24.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.450805971265311,0.0,-15.85825082446786
+[11апр.2023 15:35:24.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.612006515406563,0.0,-16.2237812429737
+[11апр.2023 15:35:24.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.777241786655225,0.0,-16.58730979553843
+[11апр.2023 15:35:24.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.946776903092768,0.0,-16.948637891378667
+[11апр.2023 15:35:24.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 8.120774605449185,0.0,-17.307617048151087
+[11апр.2023 15:35:24.476] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 8.299320368062297,0.0,-17.66413916489023
+[11апр.2023 15:35:24.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 8.482431660338193,0.0,-18.018135162353246
+[11апр.2023 15:35:24.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 8.67007249398739,0.0,-18.3695690840907
+[11апр.2023 15:35:24.478] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 8.86216618584848,0.0,-18.718432191364855
+[11апр.2023 15:35:24.480] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 9.058603467453736,0.0,-19.06473942926459
+[11апр.2023 15:35:24.481] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 9.25924962345033,0.0,-19.40852595191086
+[11апр.2023 15:35:24.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 9.463950761579781,0.0,-19.74984376044813
+[11апр.2023 15:35:24.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 9.672542378149501,0.0,-20.088756129139256
+[11апр.2023 15:35:24.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 9.88484779657199,0.0,-20.425339402405598
+[11апр.2023 15:35:24.484] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 10.10068883385361,0.0,-20.759675116399194
+[11апр.2023 15:35:24.485] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 10.319883213146795,0.0,-21.091852217917904
+[11апр.2023 15:35:24.486] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 10.541703872857056,0.0,-21.422394940340837
+[11апр.2023 15:35:24.487] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 10.764969753672517,0.0,-21.752159551106388
+[11апр.2023 15:35:24.488] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 10.98869616500184,0.0,-22.081822407516484
+[11апр.2023 15:35:24.489] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 11.212065045110364,0.0,-22.411915594454285
+[11апр.2023 15:35:24.489] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 11.434409384152389,0.0,-22.742848880442352
+[11апр.2023 15:35:24.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 11.65519183813933,0.0,-23.07493273772093
+[11апр.2023 15:35:24.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 11.873984539013009,0.0,-23.408397968810277
+[11апр.2023 15:35:24.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 12.090456865550152,0.0,-23.74340863557063
+[11апр.2023 15:35:24.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 12.304357293932526,0.0,-24.080076887930318
+[11апр.2023 15:35:24.493] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 12.515510125991,0.0,-24.418468400949905
+[11апр.2023 15:35:24.493] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 12.723795391526153,0.0,-24.758615989083182
+[11апр.2023 15:35:24.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 12.929140600751339,0.0,-25.100525932075698
+[11апр.2023 15:35:24.495] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 13.13151660719808,0.0,-25.444181753473913
+[11апр.2023 15:35:24.495] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 13.330930352755558,0.0,-25.78954915610302
+[11апр.2023 15:35:24.496] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 13.527411262017381,0.0,-26.136583529910467
+[11апр.2023 15:35:24.496] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 13.721016232249838,0.0,-26.485228293594673
+[11апр.2023 15:35:24.497] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 13.911816706768093,0.0,-26.835421463598777
+[11апр.2023 15:35:24.569] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 9.575889180795798,0.0,-18.33492263422886
+[11апр.2023 15:35:24.569] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 9.76135356344031,0.0,-18.68800651293759
+[11апр.2023 15:35:25.021] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5377ms or 107 ticks behind
+[11апр.2023 15:35:38.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.421679876642713,0.0,-8.756476046934722
+[11апр.2023 15:35:38.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.5869341214311135,0.0,-9.119035176079024
+[11апр.2023 15:35:38.707] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.750333848114451,0.0,-9.482550803919594
+[11апр.2023 15:35:38.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 5.912003838469616,0.0,-9.846951144773811
+[11апр.2023 15:35:38.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.07206350208412,0.0,-10.212168696978324
+[11апр.2023 15:35:38.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.230627423819669,0.0,-10.578139855465452
+[11апр.2023 15:35:42.452] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2459ms or 49 ticks behind
+[11апр.2023 15:35:46.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.148587941153323,0.0,-8.120684326159335
+[11апр.2023 15:35:46.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.436898301592976,0.0,-8.39384147893702
+[11апр.2023 15:35:46.684] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 6.7270877630832615,0.0,-8.66531271905069
+[11апр.2023 15:35:46.684] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.019015048658275,0.0,-8.935210654144157
+[11апр.2023 15:35:46.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.312548019025712,0.0,-9.20364245186056
+[11апр.2023 15:35:46.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 21raxez moved too quickly! -0.7560414976117382,0.2712241076924782,-10.229971904052405
+[11апр.2023 15:35:46.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.607562779288401,0.0,-9.470710408056448
+[11апр.2023 15:35:46.688] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 7.903945320646756,0.0,-9.736509496589633
+[11апр.2023 15:35:46.688] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 8.201588112212733,0.0,-10.001131072437602
+[11апр.2023 15:35:46.689] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 8.500394331486177,0.0,-10.26465732155043
+[11апр.2023 15:35:46.690] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 8.800271943187795,0.0,-10.527168112141226
+[11апр.2023 15:35:46.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ksenotsid) moved too quickly! 9.101135658739452,0.0,-10.788738274166917
+[11апр.2023 15:39:52.321] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid has made the advancement [Applied Energistics 2]
+[11апр.2023 15:40:33.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 21raxez has made the advancement [Anonymity -Nameless-]
+[11апр.2023 15:40:37.470] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 21raxez has made the advancement [Blade Arts -Aerial Rave A-       ]
+[11апр.2023 15:42:58.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 21raxez has made the advancement [Isn't It Iron Pick]
+[11апр.2023 15:45:33.895] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[11апр.2023 15:45:51.261] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2368ms or 47 ticks behind
+[11апр.2023 15:46:08.933] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2690ms or 53 ticks behind
+[11апр.2023 15:46:27.162] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3268ms or 65 ticks behind
+[11апр.2023 15:46:45.484] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3341ms or 66 ticks behind
+[11апр.2023 15:47:04.391] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3948ms or 78 ticks behind
+[11апр.2023 15:47:21.606] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2262ms or 45 ticks behind
+[11апр.2023 15:47:30.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <21raxez> АЛЕ)
+[11апр.2023 15:47:34.097] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid has made the advancement [Chompy]
+[11апр.2023 15:47:39.214] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2621ms or 52 ticks behind
+[11апр.2023 15:47:58.019] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3825ms or 76 ticks behind
+[11апр.2023 15:50:46.842] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 21raxez has made the advancement [Enchanter]
+[11апр.2023 15:51:08.675] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OffMax lost connection: Disconnected
+[11апр.2023 15:51:08.675] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: OffMax left the game
+[11апр.2023 15:58:16.305] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sollimba lost connection: Disconnected
+[11апр.2023 15:58:16.305] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sollimba left the game
+[11апр.2023 16:01:19.007] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 21raxez lost connection: Disconnected
+[11апр.2023 16:01:19.007] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 21raxez left the game
+[11апр.2023 16:01:44.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Saving the game (this may take a moment!)
+[11апр.2023 16:01:44.452] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Saved the game
+[11апр.2023 16:25:56.506] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid has made the advancement [Acquire Hardware]
+[11апр.2023 16:28:58.903] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid has made the advancement [Ice Bucket Challenge]
+[11апр.2023 16:32:10.552] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid has made the advancement [Hot Stuff]
+[11апр.2023 16:36:15.206] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ksenotsid lost connection: Disconnected
+[11апр.2023 16:36:15.207] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ksenotsid left the game
+[11апр.2023 16:38:57.696] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[11апр.2023 16:38:57.745] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Server stopping...
+[11апр.2023 16:38:57.745] [Server thread/INFO] [HammerLib/]: Purging cache from 1 HL recipe registries.
+[11апр.2023 16:38:57.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11апр.2023 16:38:57.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11апр.2023 16:38:57.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11апр.2023 16:38:58.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11апр.2023 16:38:58.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/panthalassa:panthalassa
+[11апр.2023 16:38:58.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[11апр.2023 16:38:58.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[11апр.2023 16:38:58.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11апр.2023 16:38:58.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11апр.2023 16:38:58.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11апр.2023 16:38:58.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (panthalassa): All chunks are saved
+[11апр.2023 16:38:58.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[11апр.2023 16:38:58.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[11апр.2023 16:38:59.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11апр.2023 16:38:59.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11апр.2023 16:38:59.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11апр.2023 16:38:59.336] [Server thread/INFO] [configured/]: Unloading server configs...
+[11апр.2023 16:38:59.337] [Server thread/INFO] [configured/]: Sending config unload event for configured.developer.toml
